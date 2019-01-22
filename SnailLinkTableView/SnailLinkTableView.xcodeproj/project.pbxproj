@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D3ABBB721F7400D006FEE9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3ABBB621F7400D006FEE9B /* AppDelegate.m */; };
+		5D3ABBBA21F7400D006FEE9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3ABBB921F7400D006FEE9B /* ViewController.m */; };
+		5D3ABBBD21F7400D006FEE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3ABBBB21F7400D006FEE9B /* Main.storyboard */; };
+		5D3ABBBF21F7400E006FEE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3ABBBE21F7400E006FEE9B /* Assets.xcassets */; };
+		5D3ABBC221F7400E006FEE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3ABBC021F7400E006FEE9B /* LaunchScreen.storyboard */; };
+		5D3ABBC521F7400E006FEE9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3ABBC421F7400E006FEE9B /* main.m */; };
+		5D3ABBCF21F7400E006FEE9B /* SnailLinkTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3ABBCE21F7400E006FEE9B /* SnailLinkTableViewTests.m */; };
+		5D3ABBDA21F7400E006FEE9B /* SnailLinkTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3ABBD921F7400E006FEE9B /* SnailLinkTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D3ABBCB21F7400E006FEE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D3ABBAA21F7400C006FEE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D3ABBB121F7400D006FEE9B;
+			remoteInfo = SnailLinkTableView;
+		};
+		5D3ABBD621F7400E006FEE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D3ABBAA21F7400C006FEE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D3ABBB121F7400D006FEE9B;
+			remoteInfo = SnailLinkTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D3ABBB221F7400D006FEE9B /* SnailLinkTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnailLinkTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3ABBB521F7400D006FEE9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D3ABBB621F7400D006FEE9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D3ABBB821F7400D006FEE9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D3ABBB921F7400D006FEE9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D3ABBBC21F7400D006FEE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D3ABBBE21F7400E006FEE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D3ABBC121F7400E006FEE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D3ABBC321F7400E006FEE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D3ABBC421F7400E006FEE9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D3ABBCA21F7400E006FEE9B /* SnailLinkTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnailLinkTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3ABBCE21F7400E006FEE9B /* SnailLinkTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnailLinkTableViewTests.m; sourceTree = "<group>"; };
+		5D3ABBD021F7400E006FEE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D3ABBD521F7400E006FEE9B /* SnailLinkTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnailLinkTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3ABBD921F7400E006FEE9B /* SnailLinkTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnailLinkTableViewUITests.m; sourceTree = "<group>"; };
+		5D3ABBDB21F7400E006FEE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D3ABBAF21F7400D006FEE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3ABBC721F7400E006FEE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3ABBD221F7400E006FEE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D3ABBA921F7400C006FEE9B = {
+			isa = PBXGroup;
+			children = (
+				5D3ABBB421F7400D006FEE9B /* SnailLinkTableView */,
+				5D3ABBCD21F7400E006FEE9B /* SnailLinkTableViewTests */,
+				5D3ABBD821F7400E006FEE9B /* SnailLinkTableViewUITests */,
+				5D3ABBB321F7400D006FEE9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D3ABBB321F7400D006FEE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D3ABBB221F7400D006FEE9B /* SnailLinkTableView.app */,
+				5D3ABBCA21F7400E006FEE9B /* SnailLinkTableViewTests.xctest */,
+				5D3ABBD521F7400E006FEE9B /* SnailLinkTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D3ABBB421F7400D006FEE9B /* SnailLinkTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5D3ABBB521F7400D006FEE9B /* AppDelegate.h */,
+				5D3ABBB621F7400D006FEE9B /* AppDelegate.m */,
+				5D3ABBB821F7400D006FEE9B /* ViewController.h */,
+				5D3ABBB921F7400D006FEE9B /* ViewController.m */,
+				5D3ABBBB21F7400D006FEE9B /* Main.storyboard */,
+				5D3ABBBE21F7400E006FEE9B /* Assets.xcassets */,
+				5D3ABBC021F7400E006FEE9B /* LaunchScreen.storyboard */,
+				5D3ABBC321F7400E006FEE9B /* Info.plist */,
+				5D3ABBC421F7400E006FEE9B /* main.m */,
+			);
+			path = SnailLinkTableView;
+			sourceTree = "<group>";
+		};
+		5D3ABBCD21F7400E006FEE9B /* SnailLinkTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D3ABBCE21F7400E006FEE9B /* SnailLinkTableViewTests.m */,
+				5D3ABBD021F7400E006FEE9B /* Info.plist */,
+			);
+			path = SnailLinkTableViewTests;
+			sourceTree = "<group>";
+		};
+		5D3ABBD821F7400E006FEE9B /* SnailLinkTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D3ABBD921F7400E006FEE9B /* SnailLinkTableViewUITests.m */,
+				5D3ABBDB21F7400E006FEE9B /* Info.plist */,
+			);
+			path = SnailLinkTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D3ABBB121F7400D006FEE9B /* SnailLinkTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3ABBDE21F7400E006FEE9B /* Build configuration list for PBXNativeTarget "SnailLinkTableView" */;
+			buildPhases = (
+				5D3ABBAE21F7400D006FEE9B /* Sources */,
+				5D3ABBAF21F7400D006FEE9B /* Frameworks */,
+				5D3ABBB021F7400D006FEE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnailLinkTableView;
+			productName = SnailLinkTableView;
+			productReference = 5D3ABBB221F7400D006FEE9B /* SnailLinkTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D3ABBC921F7400E006FEE9B /* SnailLinkTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3ABBE121F7400E006FEE9B /* Build configuration list for PBXNativeTarget "SnailLinkTableViewTests" */;
+			buildPhases = (
+				5D3ABBC621F7400E006FEE9B /* Sources */,
+				5D3ABBC721F7400E006FEE9B /* Frameworks */,
+				5D3ABBC821F7400E006FEE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D3ABBCC21F7400E006FEE9B /* PBXTargetDependency */,
+			);
+			name = SnailLinkTableViewTests;
+			productName = SnailLinkTableViewTests;
+			productReference = 5D3ABBCA21F7400E006FEE9B /* SnailLinkTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D3ABBD421F7400E006FEE9B /* SnailLinkTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3ABBE421F7400E006FEE9B /* Build configuration list for PBXNativeTarget "SnailLinkTableViewUITests" */;
+			buildPhases = (
+				5D3ABBD121F7400E006FEE9B /* Sources */,
+				5D3ABBD221F7400E006FEE9B /* Frameworks */,
+				5D3ABBD321F7400E006FEE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D3ABBD721F7400E006FEE9B /* PBXTargetDependency */,
+			);
+			name = SnailLinkTableViewUITests;
+			productName = SnailLinkTableViewUITests;
+			productReference = 5D3ABBD521F7400E006FEE9B /* SnailLinkTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D3ABBAA21F7400C006FEE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Wang,Guozhen";
+				TargetAttributes = {
+					5D3ABBB121F7400D006FEE9B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5D3ABBC921F7400E006FEE9B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5D3ABBB121F7400D006FEE9B;
+					};
+					5D3ABBD421F7400E006FEE9B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5D3ABBB121F7400D006FEE9B;
+					};
+				};
+			};
+			buildConfigurationList = 5D3ABBAD21F7400C006FEE9B /* Build configuration list for PBXProject "SnailLinkTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D3ABBA921F7400C006FEE9B;
+			productRefGroup = 5D3ABBB321F7400D006FEE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D3ABBB121F7400D006FEE9B /* SnailLinkTableView */,
+				5D3ABBC921F7400E006FEE9B /* SnailLinkTableViewTests */,
+				5D3ABBD421F7400E006FEE9B /* SnailLinkTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D3ABBB021F7400D006FEE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3ABBC221F7400E006FEE9B /* LaunchScreen.storyboard in Resources */,
+				5D3ABBBF21F7400E006FEE9B /* Assets.xcassets in Resources */,
+				5D3ABBBD21F7400D006FEE9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3ABBC821F7400E006FEE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3ABBD321F7400E006FEE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D3ABBAE21F7400D006FEE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3ABBBA21F7400D006FEE9B /* ViewController.m in Sources */,
+				5D3ABBC521F7400E006FEE9B /* main.m in Sources */,
+				5D3ABBB721F7400D006FEE9B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3ABBC621F7400E006FEE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3ABBCF21F7400E006FEE9B /* SnailLinkTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3ABBD121F7400E006FEE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3ABBDA21F7400E006FEE9B /* SnailLinkTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D3ABBCC21F7400E006FEE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D3ABBB121F7400D006FEE9B /* SnailLinkTableView */;
+			targetProxy = 5D3ABBCB21F7400E006FEE9B /* PBXContainerItemProxy */;
+		};
+		5D3ABBD721F7400E006FEE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D3ABBB121F7400D006FEE9B /* SnailLinkTableView */;
+			targetProxy = 5D3ABBD621F7400E006FEE9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D3ABBBB21F7400D006FEE9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D3ABBBC21F7400D006FEE9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D3ABBC021F7400E006FEE9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D3ABBC121F7400E006FEE9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D3ABBDC21F7400E006FEE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D3ABBDD21F7400E006FEE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D3ABBDF21F7400E006FEE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnailLinkTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.SnailLinkTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D3ABBE021F7400E006FEE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnailLinkTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.SnailLinkTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D3ABBE221F7400E006FEE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnailLinkTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.SnailLinkTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnailLinkTableView.app/SnailLinkTableView";
+			};
+			name = Debug;
+		};
+		5D3ABBE321F7400E006FEE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnailLinkTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.SnailLinkTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnailLinkTableView.app/SnailLinkTableView";
+			};
+			name = Release;
+		};
+		5D3ABBE521F7400E006FEE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnailLinkTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.SnailLinkTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnailLinkTableView;
+			};
+			name = Debug;
+		};
+		5D3ABBE621F7400E006FEE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnailLinkTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baidu.SnailLinkTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnailLinkTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D3ABBAD21F7400C006FEE9B /* Build configuration list for PBXProject "SnailLinkTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3ABBDC21F7400E006FEE9B /* Debug */,
+				5D3ABBDD21F7400E006FEE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3ABBDE21F7400E006FEE9B /* Build configuration list for PBXNativeTarget "SnailLinkTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3ABBDF21F7400E006FEE9B /* Debug */,
+				5D3ABBE021F7400E006FEE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3ABBE121F7400E006FEE9B /* Build configuration list for PBXNativeTarget "SnailLinkTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3ABBE221F7400E006FEE9B /* Debug */,
+				5D3ABBE321F7400E006FEE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3ABBE421F7400E006FEE9B /* Build configuration list for PBXNativeTarget "SnailLinkTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3ABBE521F7400E006FEE9B /* Debug */,
+				5D3ABBE621F7400E006FEE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D3ABBAA21F7400C006FEE9B /* Project object */;
+}
